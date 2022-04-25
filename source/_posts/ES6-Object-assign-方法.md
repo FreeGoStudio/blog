@@ -1,9 +1,9 @@
 ---
-title: ES6 Object.assign()方法
+title: ES6 Object.assign()方法的用法
 mathjax: true
 date: 2022-04-23 20:23:28
 categories: 前端
-tags: ES6
+tags: JS
 ---
 
 #### 将多个对象的所有枚举属性拷贝到目标对象上
@@ -23,7 +23,6 @@ console.log('newTarget '+newTarget);
 target {a:1,b:3,c:5,d:6}
 newTarget {a:1,b:3,c:5,d:6}
 ```
-
 
 #### 拷贝出新对象, 不修改原对象
 ```
