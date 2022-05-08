@@ -3,27 +3,46 @@
 
 # Hexo命令
 启动hexo服务
-
-`hexo s`
+```
+hexo s
+```
 
 生成静态文件
 
-`hexo g`
+```
+hexo g
+```
 
 发布静态文件
 
-`hexo d`
+```
+hexo d
+```
 
 创建文章
 
-`hexo new "My New Post"`
+```
+hexo new "My New Post"
+```
 
 创建草稿
 
-`hexo new draft "new draft"`
+```
+hexo new draft "new draft"
+```
+
+查看草稿
+
+```
+hexo server --drafts
+```
 
 发布草稿为文章
 
-`hexo publish [layout] <filename>`
+```
+hexo publish [layout] <filename>
+```
 
-`hexo publish draft <filename>`
+```
+hexo publish draft <filename>
+```
